@@ -1,4 +1,4 @@
-# Movies - ETL
+# Surf's Up
 
 
 ## Project Overview
@@ -18,15 +18,22 @@
 
 ### Analysis of Deliverable 1
 
-
+![June Stats](images/jun_stats.png)
 
 ### Analysis of Deliverable 2
 
+![December Stats](images/dec_stats.png)
 
+Comparision between June and December
+- There is a bulleted list that addresses the three key differences in weather between June and December.
+- Difference 1
+- Difference 2
+- Difference 3
 
 
 ## Overall Summary
 
-
-
-## Recommendations:
+- There is a high-level summary of the results and there are two additional queries to perform to gather more weather data for June and December. 
+- Summary
+- Query 1 supplemental
+- Query 2 Supplemental

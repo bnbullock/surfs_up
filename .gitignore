@@ -1,3 +1,6 @@
+# Add config.py file
+Line_Plots.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

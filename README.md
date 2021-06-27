@@ -1,7 +1,7 @@
 # Surf's Up
 
 ## Project Overview
-In order to determine if a "Surf and Shake Shop" can be a successful venture an investor has asked for data analysis to be provided for the weather on the Hawaiin island of Oahu. A SQLite dataset was provided with the necessary data to run the desired analytics. With a sound business plan already in place, it is imperative that the weather statistics be examined carefully to convince investors to support this personal venture. The concern right now is whether the surf and ice cream shop business is sustainable year-round or a more seasonal endevour based on the weather. With this goal in mind we are tasked with retrieving more information about temperature trends on Oahu for the months of June and December. We will make a comparative analysis and provide information and charts with the results.
+In order to determine if a "Surf and Shake Shop" can be a successful venture an investor has asked for data analysis to be provided for the weather on the Hawaiin island of Oahu. A SQLite dataset was provided with the necessary data to run the required analytics. With a sound business plan already in place, it is important that the weather statistics be examined carefully to ensure investors are comfortable in supporting this venture. The concern right now is whether the surf and ice cream shop business is sustainable year-round or a more seasonal endevour based on the weather. With this goal in mind we are tasked with retrieving more information about temperature trends on Oahu for the months of June and December. We will make a comparative analysis and provide information and charts with the results.
 
 
 - Deliverables:
@@ -12,38 +12,37 @@ In order to determine if a "Surf and Shake Shop" can be a successful venture an 
 - Data Source(s) : hawaii.sqlite weather history data
 - Software: Python 3.7.10, Visual Studio Code 1.56.2, Jupyter Notebook Server 6.3.0, SQLAlchemy
 
+
 ## Results
 
-### Analysis of Deliverable 1
-Taking all the data for the month of June we can see that the numbers
+### Analysis of June Temperatures
+Taking a look at all 1700 data points provided in the data for the month of June we can see that the mean temperature is just a bit under 75 degree Fahrenheit. Further, the distribution patterns appears to be symmetrical based on the 25% and 75% quartiles being the exact distance away from the median and within a rounding factor of the mean.
 
 ![June Stats](images/June_Stats.png)
 
 ![June Chart](images/June_Chart.png)
 
-### Analysis of Deliverable 2
-
+### Analysis of December Temperatures
+A similar result to the June observations where we have a mean and median that are very close in value, also indicating a symmetrical distribution pattern. Here, we have a larger standard deviation than June meaning that the base around the mean is larger. The 25% and 75% quartile numbers are very close to equal distance apart form the mean.
 
 ![December Stats](images/December_Stats.png)
 
 ![December Chart](images/December_Chart.png)
 
-Comparision between June and December
-- There is a bulleted list that addresses the three key differences in weather between June and December.
-- Difference 1
-- Difference 2
-- Difference 3
+### Key differences between the weather in June and December
+- The temperatures in December are approximately 3-4% degrees lower than in June
+- The standard deviation of the temperature in December is higher that June, this means that there is more variance in the temperature range from the mean during December compared to June. We can see this in the comparison bar charts where there is much more fluctuations in the December temperatures, whereas the June temperatures have more consistency to them.
+- It appears that we also have a difference in the number of temperature observations in June(1700) vs December(1517), this might explain the larger standard deviation calculated for December versus June. We can see in the bar chart where there are missing gaps in the December data, about 10.7% less observations than June.
+
+### Supplemental Queries and Histograms for June and December
+
+When we look at the most active station(USC00519281) that contributed temperature observations to our dataset we can see that a location close to this station would be a good choice. More than 90% of the observations are for temperatures higher that 68 degrees in June. For the month of December 85% of the observations from this station provided temperatures greater than 66 degrees Fahrenheit. Consistent temperatures greater 66 degrees gives us confidence in our choice of location and also confirms that the temperature meets the needs of a ice cream business.
+
+![June Histogram](images/June_Hist.png)
+
+![December Histogram](images/December_Hist.png)
 
 
 ## Overall Summary
 
-- it looks like the temparature range is between 60°F in the winter to - 90 °F (32 °C) or drop below 60 
-- There is a high-level summary of the results and there are two additional queries to perform to gather more weather data for June and December. 
-- Summary
-- Query 1 supplemental
-
-![June Histogram](images/June_Hist.png)
-
-- Query 2 Supplemental
-
-![December Histogram](images/December_Hist.png)
+As we review the analysis provided above we can come to a clear conclusion that the temperature difference from June compared to December is about 3-4 degrees. We can see the consistency in temperature shown in the bar charts and also as observed in the histograms provided. Investors should feel great confidence in investing in a venture such as this where the temperature trends point to a very favourable operating business environment for this venture.

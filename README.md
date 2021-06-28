@@ -23,11 +23,14 @@ Taking a look at all 1700 data points provided in the data for the month of June
 ![June Chart](images/June_Chart.png)
 
 ### Analysis of December Temperatures
-A similar result to the June observations where we have a mean and median that are very close in value, also indicating a symmetrical distribution pattern. Here, we have a larger standard deviation, meaning that the base around the mean is larger and the distribution pattern a little wider than June. The 25% and 75% quartile numbers are very close to equal distance apart form the mean.
+A similar result to the June observations where we have a mean and median that are very close in value, also indicating a symmetrical distribution pattern. Here, we have a larger standard deviation, meaning that the base around the mean is larger and the distribution pattern a little wider than June. We can also see a bit more fluctuation in the december temperatures compared to June along with some date gaps where the temperature was not recorded.
 
 ![December Stats](images/December_Stats.png)
 
 ![December Chart](images/December_Chart.png)
+
+
+## Overall Summary
 
 ### Key differences between the weather in June and December
 - The temperatures in December are approximately 3-4% degrees lower than in June
@@ -41,8 +44,5 @@ When we look at the most active station(USC00519281) that contributed temperatur
 ![June Histogram](images/June_Hist.png)
 
 ![December Histogram](images/December_Hist.png)
-
-
-## Overall Summary
 
 As we review the analysis provided above we can come to a clear conclusion that the temperature difference from June compared to December is about 3-4 degrees. We can see the consistency in temperatures shown in the bar charts for the different months of June and December. Further, the likely destination of Oahu near the weather observation station considered points to a reliable location for the business and supported by the consistent temperature distribution observed in the histograms. Investors should feel great confidence in investing in a venture such as this where the temperature trends point to a very favourable operating business environment for this enterprise.

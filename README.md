@@ -1,7 +1,7 @@
 # Surf's Up
 
 ## Project Overview
-In order to determine if a surf and ice cream shop can be a successful venture an investor has asked for weather analysis to be provided for the Hawaiin island of Oahu, the proposed location of the new business. A SQLite dataset was provided with the necessary weather observation data to run the desired investor analytics. With a sound business plan already in place, it is important that the weather statistics be examined carefully to ensure investors are comfortable in supporting this venture. The concern right now is whether the surf and ice cream shop business is sustainable year-round based on the weather. With this goal in mind, we are tasked with retrieving more information about temperature trends on Oahu for the months of June and December. We will make a comparative analysis and provide information and charts with the results.
+In order to determine if a surf and ice cream shop can be a successful venture, an investor has asked for weather analysis to be provided for the Hawaiin island of Oahu, the proposed location of the new business. A SQLite dataset was provided with the necessary weather observation data to run the desired investor analytics. With a sound business plan already in place, it is important that the weather statistics be examined carefully to ensure investors are comfortable in supporting this venture. The concern right now is whether the surf and ice cream shop business is sustainable year-round based on the weather. With this goal in mind, we are tasked with retrieving more information about temperature trends on Oahu for the months of June and December. We will make a comparative analysis and provide information and charts with the results.
 
 
 - Deliverables:

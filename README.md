@@ -33,8 +33,8 @@ A similar result to the June observations where we have a mean and median that a
 ## Overall Summary
 
 ### Key differences between the weather in June and December
-- The temperatures in December are approximately 3-4% degrees lower than in June
-- The standard deviation of the temperature in December is higher that June, this means that there is more variance in the temperature range from the mean during December compared to June. We can see this in the comparison bar charts where there is much more fluctuations in the December temperatures, whereas the June temperatures have more consistency to them centered arounf the mean.
+- The temperatures in December are approximately 3-4% degrees lower than in June based on the statistal tables above.
+- The standard deviation of the temperature in December is higher that June, this means that there is more variance in the temperature range from the mean during December compared to June. We can see this in the comparison bar charts where there is much more fluctuations in the December temperatures, whereas the June temperatures have more consistency to them centered around the mean.
 - It appears that we also have a difference in the number of temperature observations in June(1700) vs December(1517), this might explain the larger standard deviation calculated for December versus June. We can see in the bar chart where there are missing gaps in the December data, about 10.7% less observations than in the month of June.
 
 ### Supplemental Queries and Histograms for June and December

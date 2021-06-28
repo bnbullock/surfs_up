@@ -39,7 +39,7 @@ A similar result to the June observations where we have a mean and median that a
 
 ### Supplemental Queries and Histograms for June and December
 
-When we look at the most active station(USC00519281) that contributed temperature observations to our dataset we can see that a location close to this station would be a good choice based on the consistent temperature values. More than 90% of the observations are for temperatures higher that 68 degrees in June. For the month of December 85% of the observations from this station provided temperatures greater than 66 degrees Fahrenheit. Consistent temperatures greater 66 degrees when we consider both months together, gives us confidence in our choice of location and also confirms that the temperature meets the needs of a ice cream business.
+When we look at the most active station(USC00519281) that contributed temperature observations to our dataset we can see that a location close to this station would be a good choice based on the consistent temperature values. More than 90% of the observations are for temperatures higher that 68 degrees in June. For the month of December 85% of the observations from this station provided temperatures greater than 66 degrees Fahrenheit. Consistent temperatures greater than 66 degrees when we consider both months together, gives us confidence in our choice of location and also confirms that the temperature meets the needs of a ice cream business. The mean temperatures close to this station are very close, looking at both histograms the value appeares to be close to 71.5 degrees for the month of December and June.
 
 ![June Histogram](images/June_Hist.png)
 
